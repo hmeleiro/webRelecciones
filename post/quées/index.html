@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  
+
+  <link rel="icon" type="image/png" href="https://r-elecciones.netlify.com/favicon.png">
+
+  <title>
+    
+    
+     ¿Qué es R-elecciones? 
+    
+  </title>
+  <link rel="canonical" href="https://r-elecciones.netlify.com/post/qu%C3%A9es/">
+
+  <link rel="stylesheet" href="https://r-elecciones.netlify.com/css/fonts.css" />
+  <link rel="stylesheet" href="https://r-elecciones.netlify.com/css/style.css" />
+
+  
+</head>
+
+<body>
+<section id=nav>
+  <h1><a href="https://r-elecciones.netlify.com/">R-elecciones.</a></h1>
+  <ul>
+    
+    <li><a href="https://r-elecciones.netlify.com/post/ejemplo/">Un ejemplo</a></li>
+    
+    <li><a href="https://github.com/hmeleiro/elecciones">GitHub</a></li>
+    
+    <li><a href="https://github.com/hmeleiro/elecciones/issues">Issues</a></li>
+    
+    <li><a href="https://twitter.com/hmeleiros">Twitter</a></li>
+    
+    <li><a href="https://hmeleiro.github.io">Autor</a></li>
+    
+  </ul>
+</section>
+
+
+<section id=content>
+  <h1> ¿Qué es R-elecciones? </h1>
+
+  <div id=sub-header>
+    Héctor Meleiro · 29/01/2019 · 2 minute read
+  </div>
+
+  <div class="entry-content">
+    
+
+<p>R-elecciones es una librería de R para descarga resultados electorales oficiales de España del <a href="http://www.infoelectoral.mir.es/infoelectoral/min/">Ministerio del Interior</a>. Permite descargar resultados de las elecciones generales y municipales de cualquier año a nivel de mesa electoral y de municipio.</p>
+
+<h1 id="cómo-instalarlo">¿Cómo instalarlo?</h1>
+
+<pre><code>devtools::install_github(&quot;hmeleiro/elecciones&quot;)
+</code></pre>
+
+<h1 id="cómo-usarlo">¿Cómo usarlo?</h1>
+
+<p>La librería tiene cuatro funciones:</p>
+
+<ol>
+<li><code>mesas()</code> para descargar datos a nivel de mesa electoral e importarlos al entorno.</li>
+<li><code>municipios()</code> para descargar datos a nivel de municipio e importarlos al entorno.</li>
+<li><code>download_mesas()</code> para descargar datos a nivel de mesa electoral y guardarlos en la carpeta especificada.</li>
+<li><code>download_municipios()</code> para descargar datos a nivel de mesa municipio y guardarlos en la carpeta especificada.</li>
+</ol>
+
+<p>Las funciones aceptan cuatro argumentos:</p>
+
+<ol>
+<li><code>tipoeleccion = c(&quot;generales&quot;, &quot;municipales&quot;)</code>. El tipo de elección que se quiere descargar.</li>
+<li><code>yr</code>. El año de la elección en formato YYYY. Puede ir como número o como texto.</li>
+<li><code>mes</code>. El mes de la elección en formato mm. Se debe introducir el número del mes pero en forma texto (p.e: para mayo hay que introducir &ldquo;05&rdquo;).</li>
+<li><code>dir</code>. SOLO PARA LAS FUNCIONES DOWNLOAD: La carpeta donde se quiere guardar el resultado.</li>
+</ol>
+
+<h2 id="en-resumen">En resumen&hellip;</h2>
+
+<p>Para descargar los resultados electorales a nivel de municipio de las elecciones generales de marzo de 1979 (e importarlos directamente al entorno) se debe introducir:</p>
+
+<pre><code>library(elecciones)
+generales.1979 &lt;- municipios(tipoeleccion = &quot;generales&quot;, 
+                             yr = 1979, mes = &quot;03&quot;)
+
+</code></pre>
+
+<p>Para descargar los resultados electorales a nivel de mesa electoral de las elecciones generales de octubre de 1982 (y guardarlos en una carpeta) se debe introducir:</p>
+
+<pre><code>library(elecciones)
+download_mesas(tipoeleccion = &quot;generales&quot;, yr = 1982, mes = &quot;10&quot;, 
+               dir = &quot;UNA-RUTA-VÁLIDA-A-UNA-CARPETA-EN-TU-ORDENADOR&quot;)
+</code></pre>
+
+  </div>
+
+</section>
+
+<section id="comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+      
+      
+      if (window.location.hostname == "localhost")
+                return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = '';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+  
+  
+
+
+</body>
+</html>
+
