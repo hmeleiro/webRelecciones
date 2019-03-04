@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on R-elecciones</title>
-    <link>https://r-elecciones.netlify.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on R-elecciones</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://r-elecciones.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Elecciones</title>
-      <link>https://r-elecciones.netlify.com/tags/elecciones/</link>
+      <link>/tags/elecciones/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://r-elecciones.netlify.com/tags/elecciones/</guid>
+      <guid>/tags/elecciones/</guid>
       <description></description>
     </item>
     
     <item>
       <title>España</title>
-      <link>https://r-elecciones.netlify.com/tags/espa%C3%B1a/</link>
+      <link>/tags/espa%C3%B1a/</link>
       <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://r-elecciones.netlify.com/tags/espa%C3%B1a/</guid>
+      <guid>/tags/espa%C3%B1a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Generales</title>
-      <link>https://r-elecciones.netlify.com/tags/generales/</link>
+      <link>/tags/generales/</link>
       <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://r-elecciones.netlify.com/tags/generales/</guid>
+      <guid>/tags/generales/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Madrid</title>
-      <link>https://r-elecciones.netlify.com/tags/madrid/</link>
+      <link>/tags/madrid/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://r-elecciones.netlify.com/tags/madrid/</guid>
+      <guid>/tags/madrid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mapas</title>
-      <link>https://r-elecciones.netlify.com/tags/mapas/</link>
+      <link>/tags/mapas/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://r-elecciones.netlify.com/tags/mapas/</guid>
+      <guid>/tags/mapas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Municipales</title>
-      <link>https://r-elecciones.netlify.com/tags/municipales/</link>
+      <link>/tags/municipales/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://r-elecciones.netlify.com/tags/municipales/</guid>
+      <guid>/tags/municipales/</guid>
       <description></description>
     </item>
     

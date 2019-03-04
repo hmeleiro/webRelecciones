@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Municipales on R-elecciones</title>
-    <link>https://r-elecciones.netlify.com/tags/municipales/</link>
+    <link>/tags/municipales/</link>
     <description>Recent content in Municipales on R-elecciones</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://r-elecciones.netlify.com/tags/municipales/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/municipales/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ejemplo: mesas()</title>
-      <link>https://r-elecciones.netlify.com/posts/ejemplo/</link>
+      <link>/posts/ejemplo/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://r-elecciones.netlify.com/posts/ejemplo/</guid>
+      <guid>/posts/ejemplo/</guid>
       <description>Cargar las librerías Instalo la librería R-elecciones y cargo las librerías.
 #devtools::install_github(&amp;quot;hmeleiro/elecciones&amp;quot;) # &amp;lt;--- Instala la librería elecciones library(elecciones) # Cargo el resto de librerías library(sf) library(tidyverse) library(mapdeck) library(knitr) library(kableExtra)  Descargar los resultados Me descargo los resultados a nivel de mesa de las elecciones municipales de mayo de 2015 y me quedo solo con los de la ciudad de Madrid.
 results.muni &amp;lt;- mesas(&amp;quot;municipales&amp;quot;, &amp;quot;2015&amp;quot;, &amp;quot;05&amp;quot;) # Descargo los datos results.</description>
